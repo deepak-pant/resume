@@ -121,7 +121,8 @@ width:650px;
   display:inline;
   width:70%;
   height:25%;
-  
+  border: 2px solid ;
+  background-color: rgba(10, 20, 10, 0.1);
   
 }
 
@@ -153,7 +154,7 @@ float:left;
   }
   #technical ul li:hover{
     color: #E4BB97;
-    background-color: rgba(100, 100, 100, 0.9);
+    background-color: hsla(250, 80%, 25%, 0.4);
   }
 	
 	 
@@ -165,6 +166,7 @@ float:left;
  font-size:18px;
  line-height:1.6em;
  width:650px;
+
 
 }
 #experience ul li{
@@ -178,6 +180,7 @@ float:left;
   margin-left:4px;
   text-align:center;
   display:inline;
+   font-weight:bold;
   
 	
   
