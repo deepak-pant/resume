@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto.woff2) format('woff2'),
+       url(fonts/Roboto.woff) format('woff'),
+       url(fonts/Roboto.tff) format('truetype');
+}
+body{
+    background:url(../images/texture.jpg) repeat;
+     font-family: "Helvetica", serif;
+	font-size:15px;
+	 background-color: rgba(100, 100, 100, 0.9);
+
+
+}
+strong{font-weight:bold;}
+.clr{clear:both;}
+h1{
+  font-size:40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  
+  color: rgb(100, 90, 120);
+ 
+
+
+}
+h2{
+  text-transform:uppercase;
+  letter-spacing: 2px;
+  font-style:italic;
+  font-size:21px;
+  
+
+}
+#container{
+width:900px;
+margin:50px auto 10px auto;
+padding: 20px 30px;
+border-top:#666 solid 6px;
+border-bottom:#666 solid 3px;
+background: #F7F7F7;
+	background: linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+	 background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
+
+
+}
+#header{
+padding: 20px 0;
+border-bottom:#ccc dotted 1px;
+overflow:hidden;
+background-color: hsla(225, 100%, 25%, 0.4);
+line-height:1.4;
+ position: relative;
+ 
+  
+   
+  
+  
+ 
+  
+
+	
+	
+}
+#header #name{
+float:left;
+ 
+}
+#header #contact{
+float:right;
+justify-content: bottom;
+
+}
+.row{
+  padding:0px 20px;
+  font-size:20px;
+  overflow:hidden;
+  border-bottom:#ccc dotted 1px;
+ 
+ 
+
+ 
+   
+
+}
+
+h2.left{
+float:left;
+width:140px;
+font-style:italic;
+}
+#profile p{
+  width:700px;
+  display:inline;
+  font-weight:300;
+  float:right;
+ 
+  
+	
+}
+#skills ul{
+float:right;
+width:650px;
+
+
+}
+#skills ul li{
+ 
+	
+	float:left;
+  width:160px;
+  padding: 0 40px 0 0;
+  font-size:16px;
+  
+  margin-top:4px;
+  height:140px;
+  margin-left:6px;
+  text-align:left;
+  display:inline;
+  width:70%;
+  height:25%;
+  
+  
+}
+
+  
+	
+	
+  
+
+#technical ul{
+float:left;
+width:650px;
+
+
+}
+#technical ul li{
+float:left;
+  width:120px;
+  padding: 0 40px 0 0;
+  font-size:16px;
+  border: 2px solid ;
+  margin-top:4px;
+  height:100px;
+  margin-left:4px;
+  text-align:center;
+  display:inline;
+  font-weight:700;
+  width:50%
+  height:25%
+  }
+  #technical ul li:hover{
+    color: #E4BB97;
+    background-color: rgba(100, 100, 100, 0.9);
+  }
+	
+	 
+  
+  
+
+#experience div li,#education{
+ font-style:normal;
+ font-size:18px;
+ line-height:1.6em;
+ width:650px;
+
+}
+#experience ul li{
+ 
+	float:left;
+  width:300px;
+  padding: 0 40px 0 0;
+  font-size:16px;
+  margin-top:4px;
+  height:100px;
+  margin-left:4px;
+  text-align:center;
+  display:inline;
+  
+	
+  
+}
+ 
+}
+#experience div p{
+
+  width:700px;
+  display:inline;
+  height:50px;
+  float:right;
+  width:80%;
+}
+#education div {
+float:right;
+width:300px;
+padding:10px 0;
+height:150px;
+
+
+	
+}
+#education div h3 {
+	
+  font-style:normal;
+  font-size:18px;
+  line-height:1.6em;
+  
+  
+   
+
+  width:700px;
+}  
+
+#education div p {
+	
+  font-style:normal;
+  font-size:18px;
+  line-height:1.6em;
+  height:20%;
+  width:700px;
+
+  
+   
+
+ 
+}   
+
+   
+#footer{
+  text-align:center;
+  margin-bottom:10px;
+  background-color: #352926;}   
+
+  
+	
+
+
+
+
+
